@@ -1,5 +1,14 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  def square_array(numbers)
+  counter = 0
+new_array = []
+ 
+while numbers [counter] do
+  new_array << numbers [counter] ** 2 
+  counter += 1
+end
+  return new_array
+end
 end
 
 def find_max_value(array)
